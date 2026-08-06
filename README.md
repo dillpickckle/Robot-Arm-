@@ -20,3 +20,8 @@ SO-ARM100
 For anything software-related, go to those projects directly.
 
 
+P.S. — A few notes on what's not included in the full-assembly STEP file:
+
+No screws or bolts. I left these out because mapping every fastener would have cluttered the file without adding useful information. The BOM and assembly guide list what fasteners go where.
+No electronics. The Teensy 4.1, TMC2209 drivers, buck converters, and other PCBs aren't modeled because I couldn't find accurate CAD files for them, and the manufacturers don't publish dimensioned drawings. Once I get my hands on this, I will eventually update the files to reflect that. 
+Planetary gearbox mounting points are also not known due to the manufacturer not specifying. This again will be updated once I can measure myself. 
