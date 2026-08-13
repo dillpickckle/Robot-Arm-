@@ -1,4 +1,4 @@
-A 6-DOF Robot Arm
+A 5-DOF Robot Arm
 with a 400 mm reach and a 250g payload, I designed and built from scratch.
 
 <img width="1336" height="839" alt="Screenshot 2026-08-06 085240" src="https://github.com/user-attachments/assets/b75f3cce-34c3-496f-b104-8731cab686f2" />
