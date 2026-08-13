@@ -4,7 +4,7 @@ with a 400 mm reach and a 250g payload, I designed and built from scratch.
 <img width="1336" height="839" alt="Screenshot 2026-08-06 085240" src="https://github.com/user-attachments/assets/b75f3cce-34c3-496f-b104-8731cab686f2" />
 
 Specs
-6 degrees of freedom
+5 degrees of freedom
 400mm reach, 250g payload
 3× NEMA 17 steppers (base, shoulder, elbow)
 3× Feetech STS3215 bus servos (wrist joints + gripper)
