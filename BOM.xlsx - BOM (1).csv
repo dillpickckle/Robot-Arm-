@@ -1,0 +1,51 @@
+5-DOF Robot Arm - Bill of Materials,,,,
+,,,,
+,,,,
+HARDWARE,,,,
+Part,Qty Needed,Total Price,Source,Link
+688ZZ Ball Bearing 8x16x5,2,$4.73,AliExpress,Link
+6704RS Ball Bearing 20x27x4,2,$1.88,AliExpress,Link
+MR52ZZ Mini Ball Bearing 2x5x2.5,1,$8.59,Amazon,Link
+Thrust Bearing 90x120x4,1,$8.37,AliExpress,Link
+Wheel Hex Drive Hub,1,$0.99,AliExpress,Link
+NEMA 17 Shaft Coupling (jaw),1,$4.27,AliExpress,Link
+Spiral Bevel Gear (matched pair),2,$11.85,AliExpress,Link
+Ball Bearing 6908 (40x62x12),2,$9.00,Amazon,Link
+M3/M4/M5 Screw Assortment Kit,1,$23.00,Amazon,Link
+Heat-Set Insert Assortment Kit,1,$16.00,Amazon,Link
+HARDWARE SUBTOTAL,,$88.68,,
+,,,,
+MOTORS & DRIVE,,,,
+Part,Qty Needed,Total Price,Source,Link
+20:1 Planetary Gearbox (NEMA 17),1,$26.50,AliExpress,Link
+5:1 Planetary Gearbox (NEMA 17),2,$38.78,AliExpress,Link
+NEMA 17 Stepper 42N.cm,3,$27.27,AliExpress,Link
+STS3215 30kg Serial Bus Servo,3,$75.70,AliExpress,Link
+MOTORS & DRIVE SUBTOTAL,,$168.25,,
+,,,,
+ELECTRONICS,,,,
+Part,Qty Needed,Total Price,Source,Link
+Teensy 4.1 Microcontroller,1,$34.90,Amazon,Link
+TMC2209 Stepper Driver,3,$14.10,AliExpress,Link
+Waveshare Bus Servo Adapter (URT-1),1,$17.19,AliExpress,Link
+24V PSU (200W / 8.8A),1,$31.43,AliExpress,Link
+24V to 12V Buck Converter (5A),1,$5.71,AliExpress,Link
+24V to 5V Buck Converter (3A),1,$1.39,AliExpress,Link
+Main Power Rocker Switch,1,$1.61,AliExpress,Link
+Emergency Stop Button (NC),1,$2.61,AliExpress,Link
+Limit Switch w/ lever,3,$0.99,Aliexpress,Link
+JST-XH Connector Kit + crimp tool,1,$30,Amazon,Link
+22 AWG Stranded Wire (multi-color),1,$21,Amazon,Link
+18 AWG Wire (red/black),1,$8,Amazon,Link
+Heat Shrink Tubing Assortment,1,$14,Amazon,Link
+Header Pin Strips (40-pin),1,$8,Amazon,Link
+ELECTRONICS SUBTOTAL,,$190.93,,
+,,,,
+SHIPPING & FEES,,,,
+Item,,Total Price,Source,
+AliExpress Shipping,,$30.00,AliExpress,
+AliExpress Import / Customs Fees,,$30.00,AliExpress,
+Amazon Shipping,,$0.00,Amazon (Prime Member),
+SHIPPING & FEES SUBTOTAL,,$60.00,,
+,,,,
+GRAND TOTAL,,$507.86,,
