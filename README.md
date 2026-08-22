@@ -12,13 +12,7 @@ Teensy 4.1 controller
 24V power system
 Designed in Fusion 360, printed in PETG / PA6-CF / PLA
 
-The software used with this arm is not my work. This repo is hardware only.
-
-The arm is compatible with:
-LeRobot
-SO-ARM100
-For anything software-related, go to those projects directly.
-
+Status: Hardware complete. Firmware in development; Teensy 4.1 and drivers have not arrived yet, so it can't be written or tested until parts are in hand. 
 
 P.S. — A few notes on what's not included in the full-assembly STEP file:
 
