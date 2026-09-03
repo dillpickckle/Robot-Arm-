@@ -1,21 +1,29 @@
-A 5-DOF Robot Arm
-with a 400 mm reach and a 250g payload, I designed and built from scratch.
+5-DOF Robot Arm
 
-<img width="1336" height="839" alt="Screenshot 2026-08-06 085240" src="https://github.com/user-attachments/assets/b75f3cce-34c3-496f-b104-8731cab686f2" />
+A robotic arm with 400mm reach and a 250g payload, designed and built from scratch.
+
+<img width="1336" height="839" alt="Robot arm" src="https://github.com/user-attachments/assets/b75f3cce-34c3-496f-b104-8731cab686f2" />
+Status
+
+Hardware: Complete — CAD, STEP files, wiring diagrams, and BOM are in this repo.
+
+Firmware: In development. The Teensy 4.1 and stepper drivers haven't arrived yet, so it can't be tested until parts are in hand. Pin assignments and steps-per-degree constants are derived from the wiring design and CAD.
 
 Specs
-5 degrees of freedom
+5 degrees of freedom + gripper
 400mm reach, 250g payload
-3× NEMA 17 steppers (base, shoulder, elbow)
-3× Feetech STS3215 bus servos (wrist joints + gripper)
-Teensy 4.1 controller
-24V power system
+3× NEMA 17 steppers with planetary gearboxes (base 5:1, shoulder 20:1, elbow 20:1)
+3× Feetech STS3215 bus servos (wrist pitch, wrist roll, gripper)
+Teensy 4.1 controller, 3× TMC2209 stepper drivers
+24V power system with 12V and 5V rails
 Designed in Fusion 360, printed in PETG / PA6-CF / PLA
 
-Status: Hardware complete. Firmware in development; Teensy 4.1 and drivers have not arrived yet, so it can't be written or tested until parts are in hand. 
 
-P.S. — A few notes on what's not included in the full-assembly STEP file:
 
-No screws or bolts. I left these out because mapping every fastener would have cluttered the file without adding useful information. The BOM and assembly guide list what fasteners go where.
-No electronics. The Teensy 4.1, TMC2209 drivers, buck converters, and other PCBs aren't modeled because I couldn't find accurate CAD files for them, and the manufacturers don't publish dimensioned drawings. Once I get my hands on this, I will eventually update the files to reflect that. 
-Planetary gearbox mounting points are also not known due to the manufacturer not specifying. This again will be updated once I can measure myself. 
+Notes on the CAD files
+
+No screws or bolts. Mapping every fastener would have cluttered the file without adding useful information. The BOM and assembly guide list what goes where.
+
+No electronics. The Teensy, TMC2209s, buck converters, and other PCBs aren't modeled — I couldn't find accurate CAD for them and the manufacturers don't publish dimensioned drawings. I'll update these once I have the parts in hand to measure.
+
+Planetary gearbox mounting points are approximate. The manufacturer doesn't specify them. Also getting updated once I can measure them myself.
